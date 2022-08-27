@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.txt {
+    margin: 10px;
+}
+
+.txt-f {
+    width: 300px;
+    height: 315px;
+    border: 1px solid #000;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+}
+
+.filtered-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filtered1 {
+    display: flex;
+
+}
+
+.filtered2 {
+    display: flex;
+}
