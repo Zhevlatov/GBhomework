@@ -14,8 +14,8 @@
             <div class="logo">E-shop</div>
             <div class="cart">
                 <form action="#" class="search-form">
-                    <input type="text" class="search-field" v-model="userSearch">
-                    <button class="btn-search" type="submit" @click="filter">
+                    <input type="text" class="search-field" @input="filter" v-model="userSearch">
+                    <button class="btn-search" type="submit">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
